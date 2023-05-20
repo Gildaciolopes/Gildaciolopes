@@ -1,7 +1,7 @@
 ### Olá! Eu sou o Gildácio lopes, Sou desenvolvedor Web e Faço jogos Indie!
 
 - ☕ Estudando Javascript
-- 😄 Pronouns: ele/dele
+- 😄 Pronomes: ele/dele
 
 <div style="display: inline_block"><br>
   <img align="center" alt="gildacio_JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
