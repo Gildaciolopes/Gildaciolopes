@@ -1,4 +1,4 @@
-### Olá! Eu sou o Gildácio lopes, Sou desenvolvedor Web e Faço jogos Indie!
+### Olá! Eu sou o Gildácio lopes, Sou desenvolvedor Web e programador de jogos Indie!
 
 - ☕ Estudando Javascript
 - 😄 Pronomes: ele/dele
