@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+desenvolvedor+de+jogos+e+programador;Eu+sou+apaixonado+por+Tecnologia+%3C3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Desenvolvedor+de+jogos+e+programador;Eu+sou+apaixonado+por+Tecnologia+%3C3)](https://git.io/typing-svg)
 
 - ☕ Estudando Javascript
 - 😄 Pronomes: ele/dele
