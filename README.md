@@ -1,11 +1,11 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Desenvolvedor+Back-end;Eu+sou+apaixonado+por+Tecnologia+%3C3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+desenvolvedor+Back-end+e+programador+de+jogos;Eu+sou+apaixonado+por+Tecnologia+%3C3)](https://git.io/typing-svg)
 
 - ☕ Estudando Java
 - 😄 Pronomes: ele/dele
 - Usando GameMaker desde 2021
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="gildacio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-plain.svg">
+  <img align="center" alt="gildacio" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg">
   <img align="center" alt="gildacio_React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
   <img align="center" alt="gildacio_Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="gildacio_C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
