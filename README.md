@@ -2,9 +2,10 @@
 
 <h1>👩🏽‍💻 Sobre mim: </h1>
 
-- ☕ Estudando Java
+- 🌱 
+- ☕ Estudando Javascript
 - 😄 Pronomes: ele/dele
-- Desenvolvedor Back-end
+- Me tornando desenvolvedor Full-Stack
 
 <div><h2>☕ Skills: </h2>
   
