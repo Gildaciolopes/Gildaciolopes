@@ -2,7 +2,6 @@
 
 <h1>👩🏽‍💻 Sobre mim: </h1>
 
-- 🌱 
 - ☕ Estudando Javascript
 - 😄 Pronomes: ele/dele
 - Me tornando desenvolvedor Full-Stack
