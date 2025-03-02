@@ -8,7 +8,7 @@
 
 <div><h2>☕ Skills: </h2>
   
-[![My Skills](https://skillicons.dev/icons?i=java,spring,mongodb,python,django,cs,dotnet)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,mongodb,python,django)](https://skillicons.dev)
 
 </div>
 <div><h3>📱 Redes sociais: </h3>
