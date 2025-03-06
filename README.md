@@ -2,13 +2,13 @@
 
 <h1>👩🏽‍💻 Sobre mim: </h1>
 
-- ☕ Estudando Javascript
+- ☕ Me aperfeiçoando em TypeScript
 - 😄 Pronomes: ele/dele
-- Me tornando desenvolvedor Full-Stack
+- Me tornando um desenvolvedor Full-Stack
 
 <div><h2>☕ Skills: </h2>
   
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,nodejs,java,spring,python,django,git)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,java,spring,python,django,git)](https://skillicons.dev)
 
 </div>
 <div><h3>📱 Redes sociais: </h3>
