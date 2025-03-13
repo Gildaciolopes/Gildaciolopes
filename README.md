@@ -1,7 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+desenvolvedor+Full-Stack;E+sou+apaixonado+por+Tecnologia+%3C3)](https://git.io/typing-svg)
 
-<img width=55% align-items="center" src="https://github-readme-streak-stats.herokuapp.com?user=Gildaciolopes&theme=radical&mode=weekly"/>
-
 <h1>👩🏽‍💻 Sobre mim: </h1>
 
 - ☕ Me aperfeiçoando em TypeScript
