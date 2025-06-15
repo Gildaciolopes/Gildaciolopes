@@ -5,13 +5,13 @@
 - 💻 <strong>Técnico</strong> em Eletrônica - IFPI
 - 🎓 <strong>Graduando</strong> em Análise e Desenvolvimento de Sistemas - Estácio
 - ☕ Me tornando um <strong>Desenvolvedor Full-Stack</strong>
-- 👩‍💻 <strong>Desenvolvimento Web | Automações | DevOps</strong>
+- 👩‍💻 <strong>Desenvolvimento Web | DevOps</strong>
 
 <h2>☕ Minhas Habilidades: </h2>
 
 <div align="center">
   
-  [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,git,postgres,mongodb,aws)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,postgres,mongodb,aws,git)](https://skillicons.dev)
   
 </div>
 
@@ -24,7 +24,7 @@
 </div>
 
 <div><h2>📱 Redes sociais: </h2>
-  <a href="https://gildaciolopes.netlify.app" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-%23F50040?style=for-the-badge&logo=javascript&logoColor=white" target="_blank"></a>
+  <a href="https://gildaciolopes.netlify.app" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-%23F50040?style=for-the-badge&logo=typescript&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/gildáciozz" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=devbox&logoColor=white" target="_blank"></a>
   <a href = "mailto:contato.gildaciolopes@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
