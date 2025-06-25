@@ -5,13 +5,13 @@
 - 💻 <strong>Técnico</strong> em Eletrônica - IFPI
 - 🎓 <strong>Graduando</strong> em Análise e Desenvolvimento de Sistemas - Estácio
 - ☕ Me tornando um <strong>Desenvolvedor Full-Stack</strong>
-- 👩‍💻 <strong>Desenvolvimento Web | DevOps</strong>
+- 👩‍💻 <strong>Desenvolvimento Web | DevOps | Automações</strong>
 
 <h2>☕ Minhas Habilidades: </h2>
 
 <div align="center">
   
-  [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,postgres,mongodb,aws,git)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express,postgres,prisma,mongodb,aws,git)](https://skillicons.dev)
   
 </div>
 
