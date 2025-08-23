@@ -30,5 +30,5 @@
   <a href = "mailto:contato.gildaciolopes@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div>
 
-### Visit my Dev Community
+### Conheça minha Comunidade de Desenvolvedores:
 [![Discord Server Card](https://cardzera.audibert.dev/api/1112920281367973900?t={timestamp})](https://discord.gg/servidordosprogramadores)
