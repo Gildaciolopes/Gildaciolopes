@@ -4,7 +4,7 @@
 
 - 💻 <strong>Técnico</strong> em Eletrônica - IFPI
 - 🎓 <strong>Graduando</strong> em Análise e Desenvolvimento de Sistemas - Estácio
-- ☕ Atuando como <strong>Desenvolvedor Full-Stack</strong>
+- ☕ Atuando como <strong>Desenvolvedor Full-Stack Pleno</strong>
 - 👩‍💻 <strong>Desenvolvimento Web | Mobile</strong>
 
 <h2>☕ Minhas Habilidades: </h2>
