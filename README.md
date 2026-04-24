@@ -2,8 +2,8 @@
 
 <h1>👩🏽‍💻 Sobre mim: </h1>
 
-- 💻 <strong>Técnico</strong> em Eletrônica - IFPI
-- 🎓 <strong>Graduando</strong> em Análise e Desenvolvimento de Sistemas - Estácio
+- 💻 <strong>Técnico</strong> em Eletrônica
+- 🎓 <strong>Graduando</strong> em Análise e Desenvolvimento de Sistemas
 - ☕ Sou <strong>Desenvolvedor Full-Stack Pleno </strong>na <a href="https://medsafebrasil.com.br" target="_blank">Medsafe Brasil</a>
 - 👩‍💻 <strong>Desenvolvimento Web & Mobile</strong>
 
