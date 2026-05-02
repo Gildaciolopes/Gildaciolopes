@@ -11,7 +11,7 @@
 
 <div align="center">
   
-  [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,docker,postgres,prisma,mongodb,aws,git)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,nest,prisma,postgres,mongodb,rabbitmq,docker,aws)](https://skillicons.dev)
   
 </div>
 
