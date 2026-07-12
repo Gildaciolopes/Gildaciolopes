@@ -15,7 +15,6 @@
   
 </div>
 
-<hr>
 <div><h2>📱 Redes sociais: </h2>
   <a href="https://gildacio.com" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-%23F50040?style=for-the-badge&logo=typescript&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/gildaciolopes" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=devbox&logoColor=white" target="_blank"></a>
