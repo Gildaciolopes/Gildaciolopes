@@ -8,7 +8,7 @@
 <strong>Gildaciolopes@github</strong>
 ----------------
 <strong>Cargo</strong>      -> Desenvolvedor Full-Stack Pleno
-<strong>Empresa</strong>    -> <a href="https://medsafebrasil.com.br" target="_blank">Medsafe Brasil</a>
+<strong>Empresa</strong>    -> <a href="https://visao.coop" target="_blank">Visão Coop</a>
 <strong>Formação</strong>   -> Análise e Desenvolvimento de Sistemas (cursando)
 <strong>Técnico</strong>    -> Eletrônica
 <strong>Foco</strong>       -> Desenvolvimento Web & Mobile
