@@ -1,26 +1,31 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+Desenvolvedor+Full-Stack;Especialista+em+Web+e+Mobile)](https://git.io/typing-svg)
-
-<h1>👩🏽‍💻 Sobre mim: </h1>
-
-- 💻 <strong>Técnico</strong> em Eletrônica
-- 🎓 <strong>Graduando</strong> em Análise e Desenvolvimento de Sistemas
-- ☕ Sou <strong>Desenvolvedor Full-Stack Pleno </strong>na <a href="https://medsafebrasil.com.br" target="_blank">Medsafe Brasil</a>
-- 👩‍💻 <strong>Desenvolvimento Web & Mobile</strong>
-
-<h2>☕ Minhas Habilidades: </h2>
-
-<div align="center">
-  
-  [![My Skills](https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,nest,prisma,postgres,mongodb,rabbitmq,docker,aws)](https://skillicons.dev)
-  
-</div>
-
-<div><h2>📱 Redes sociais: </h2>
-  <a href="https://gildacio.com" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-%23F50040?style=for-the-badge&logo=typescript&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/gildaciolopes" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=devbox&logoColor=white" target="_blank"></a>
-  <a href = "https://discord.com/users/347184605004300288"><img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
-  <a href = "mailto:contato.gildaciolopes@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-</div>
+<table>
+<tr>
+<td width="260" align="center" valign="middle">
+  <img src="assets/profile.png" width="220" alt="Gildacio Lopes"/>
+</td>
+<td valign="middle">
+<pre>
+<strong>Gildaciolopes@github</strong>
+----------------
+<strong>Cargo</strong>      -> Desenvolvedor Full-Stack Pleno
+<strong>Empresa</strong>    -> <a href="https://medsafebrasil.com.br" target="_blank">Medsafe Brasil</a>
+<strong>Formação</strong>   -> Análise e Desenvolvimento de Sistemas (cursando)
+<strong>Técnico</strong>    -> Eletrônica
+<strong>Foco</strong>       -> Desenvolvimento Web & Mobile
+<strong>Portfolio</strong>  -> <a href="https://gildacio.com" target="_blank">gildacio.com</a>
+<strong>LinkedIn</strong>   -> <a href="https://www.linkedin.com/in/gildaciolopes" target="_blank">in/gildaciolopes</a>
+<strong>Discord</strong>    -> <a href="https://discord.com/users/347184605004300288" target="_blank">gil</a>
+<strong>Email</strong>      -> <a href="mailto:contato.gildaciolopes@gmail.com">contato.gildaciolopes@gmail.com</a>
+</pre>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding-left:20px">
+  <a href="https://git.io/typing-svg" target="_blank"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+Desenvolvedor+Full-Stack;Especialista+em+Web+e+Mobile" alt="Typing SVG"/></a>
+</td>
+</tr>
+</table>
 
 ### Conheça minha Comunidade Dev:
+
 [![Discord Server Card](https://cardzera.audibert.dev/api/1112920281367973900?t={timestamp})](https://discord.gg/programador)
