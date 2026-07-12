@@ -22,7 +22,7 @@
 </tr>
 <tr>
 <td colspan="2" style="padding-left:35px">
-  <a href="https://git.io/typing-svg" target="_blank"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&width=435&lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+Desenvolvedor+Full-Stack;Especialista+em+Web+e+Mobile;Entre+na+minha+Comunidade" alt="Typing SVG"/></a>
+  <a href="https://git.io/typing-svg" target="_blank"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;duration=4000&amp;pause=500&amp;width=435&amp;lines=Olá!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+Desenvolvedor+Full-Stack;Especialista+em+Web+e+Mobile;Entre+na+minha+Comunidade" alt="Typing SVG"/></a>
 </td>
 </tr>
 </table>
