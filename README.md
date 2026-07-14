@@ -8,7 +8,7 @@
 <strong>Gildaciolopes@github</strong>
 ----------------
 <strong>Cargo</strong>       -> Desenvolvedor Full-Stack Pleno
-<strong>Experiência</strong> -> +3 anos
+<strong>Experiência</strong> -> +4 anos
 <strong>Empresa</strong>     -> <a href="https://visao.coop" target="_blank">Visão Coop</a>
 <strong>Formação</strong>    -> Análise e Desenvolvimento de Sistemas (cursando)
 <strong>Técnico</strong>     -> Eletrônica
