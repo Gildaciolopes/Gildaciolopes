@@ -1,28 +1,29 @@
-<table style="width:100%">
-<tr>
-<td width="260" align="center" valign="middle">
-  <img src="assets/profile.png" width="220" alt="Gildacio Lopes"/>
-</td>
-<td valign="middle" style="width:100%">
-<pre>
-<strong>Gildaciolopes@github</strong>
-----------------
-<strong>Cargo</strong>       -> Desenvolvedor Full-Stack Pleno
-<strong>Experiência</strong> -> +3 anos
-<strong>Empresa</strong>     -> <a href="https://visao.coop" target="_blank">Visão Coop</a>
-<strong>Formação</strong>    -> Análise e Desenvolvimento de Sistemas (cursando)
-<strong>Técnico</strong>     -> Eletrônica
-<strong>Foco</strong>        -> Desenvolvimento Web & Mobile
-<strong>Portfolio</strong>   -> <a href="https://gildacio.com" target="_blank">gildacio.com</a>
-<strong>LinkedIn</strong>    -> <a href="https://www.linkedin.com/in/gildaciolopes" target="_blank">in/gildaciolopes</a>
-<strong>Email</strong>       -> <a href="mailto:contato.gildaciolopes@gmail.com">contato.gildaciolopes@gmail.com</a>
-<strong>Comunidade</strong>  -> <a href="https://discord.gg/programador" target="_blank">Servidor dos programadores</a>
-</pre>
-</td>
-</tr>
-<tr>
-<td colspan="2" style="padding-left:35px">
-  <a href="https://git.io/typing-svg" target="_blank"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;duration=4000&amp;pause=500&amp;width=800&amp;lines=Ol%C3%A1!+%F0%9F%91%8B;Pode+me+chamar+de+Gil!+%F0%9F%98%81;Sou+Desenvolvedor+Full-Stack;Especialista+em+Web+e+Mobile;Entre+na+minha+Comunidade" alt="Typing SVG" width="100%"/></a>
-</td>
-</tr>
+<div align="center">
+
+<h3><code>Gildaciolopes@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Contribuições dos últimos 12 meses" />
+
+<br><br>
+
+<h3><code>Gildaciolopes@github ~ $ whoami</code></h3>
+
+<table>
+  <tr>
+    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="Retrato ASCII" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Info card neofetch" /></td>
+  </tr>
 </table>
+
+<br>
+
+<h3><code>Gildaciolopes@github ~ $ ./links.sh</code></h3>
+
+<div>
+  <a href="https://gildacio.com" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-%23F50040?style=for-the-badge&logo=typescript&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/gildaciolopes" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=devbox&logoColor=white" target="_blank"></a>
+  <a href = "https://discord.com/users/347184605004300288"><img src="https://img.shields.io/badge/-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+  <a href = "mailto:contato.gildaciolopes@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
+
+</div>
