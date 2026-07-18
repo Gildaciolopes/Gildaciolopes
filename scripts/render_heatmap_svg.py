@@ -105,17 +105,10 @@ def main() -> None:
     stats_h = 88
     canvas_h = TITLEBAR_H + TOP_LABEL_H + art_h + stats_h + PAD
 
-    css = (
-        "@keyframes cell{0%{opacity:0;transform:translateY(-6px);}"
-        "100%{opacity:1;transform:translateY(0);}}"
-        f".c{{opacity:0;animation:cell {CELL_DUR:.2f}s cubic-bezier(.2,.8,.2,1) both;}}"
-    )
-
     p = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" '
         f'height="{canvas_h}" viewBox="0 0 {canvas_w} {canvas_h}" '
         f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">',
-        f'<style>{css}</style>',
         '<defs><linearGradient id="hbg" x1="0" y1="0" x2="0" y2="1">'
         f'<stop offset="0" stop-color="{BG2}"/>'
         f'<stop offset="1" stop-color="{BG}"/></linearGradient></defs>',
@@ -143,20 +136,36 @@ def main() -> None:
         y = grid_top + wi * STEP + CELL * 0.78
         p.append(f'<text x="{PAD}" y="{y:.1f}" fill="{MUTED}" font-size="9">{wname}</text>')
 
-    # boxes -- diagonal slide-down reveal (once, freeze)
+    # boxes -- each grows from its OWN center: scale 0 -> 1 with a slight
+    # overshoot ("pop"), staggered diagonally (once, then freeze). SMIL (not CSS
+    # transform-box, which img-embedded SVGs render unreliably): a <g> translates
+    # to the box center and the rect is drawn centered on (0,0), so animateTransform
+    # scale pivots on that center in every renderer.
+    h = CELL / 2
     for ci, column in enumerate(grid):
-        gx = grid_left + ci * STEP
+        cx = grid_left + ci * STEP + h
         for ri, cell in enumerate(column):
             if cell is None:
                 continue
             date_s, count, lvl = cell
-            gy = grid_top + ri * STEP
+            cy = grid_top + ri * STEP + h
             delay = ci * COL_T + ri * ROW_T
-            plural = "" if count == 1 else "s"
+            word = "contribuição" if count == 1 else "contribuições"
             p.append(
-                f'<rect class="c" x="{gx}" y="{gy}" width="{CELL}" height="{CELL}" '
-                f'rx="2.5" fill="{PALETTE[lvl]}" style="animation-delay:{delay:.3f}s">'
-                f'<title>{date_s}: {count} contribuicão{plural}</title></rect>'
+                f'<g transform="translate({cx},{cy})">'
+                f'<rect x="{-h}" y="{-h}" width="{CELL}" height="{CELL}" rx="2.5" '
+                f'fill="{PALETTE[lvl]}" opacity="0">'
+                f'<title>{date_s}: {count} {word}</title>'
+                f'<animate attributeName="opacity" from="0" to="1" '
+                f'begin="{delay:.3f}s" dur="0.09s" fill="freeze"/>'
+                # overshoot lives in the VALUES (0 -> 1.15 -> 1); keySplines must
+                # stay within [0,1] or the browser rejects the whole animation and
+                # you get a plain opacity fade instead of a grow.
+                f'<animateTransform attributeName="transform" type="scale" '
+                f'values="0.1;1.15;1" keyTimes="0;0.72;1" calcMode="spline" '
+                f'keySplines="0.22 1 0.36 1;0.33 0 0.66 1" '
+                f'begin="{delay:.3f}s" dur="{CELL_DUR:.2f}s" fill="freeze"/>'
+                f'</rect></g>'
             )
 
     # legend: Less [][][][][] More
