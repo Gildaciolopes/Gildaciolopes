@@ -1,0 +1,11 @@
+# Arquivos gerados (heatmap diário via GitHub Actions + regeneração local).
+# merge=ours: em qualquer merge conflitante, mantém a versão LOCAL sem gerar
+# marcador de conflito. O cron diário regenera com dados frescos no dia seguinte,
+# então nunca fica preso. Requer o driver registrado uma vez:
+#   git config merge.ours.driver true   (já feito neste clone)
+contrib-heatmap.svg merge=ours
+data/contributions.json merge=ours
+
+# marca como gerado -> GitHub colapsa o diff desses arquivos
+contrib-heatmap.svg linguist-generated=true
+data/contributions.json linguist-generated=true
