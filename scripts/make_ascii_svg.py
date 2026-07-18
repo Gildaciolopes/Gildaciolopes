@@ -40,8 +40,11 @@ GAMMA = 1.18          # >1 brightens mids -> face lands in sparser chars
 WHITE_FLOOR = 0.80    # luminance above this is forced to blank (space)
 
 PAD = 20
-TITLEBAR_H = 30
-STATUS_H = 30
+# taller chrome + larger chrome font: this SVG is 840px wide but shown at ~370px
+# in the README (~0.44x), so header/footer need big native sizes to stay legible.
+TITLEBAR_H = 46
+STATUS_H = 46
+CHROME_FS = 22        # titlebar + status font size (native)
 ART_W = COLS * CELL_W
 ART_H = ROWS * CELL_H
 CANVAS_W = ART_W + PAD * 2
@@ -96,10 +99,10 @@ def main() -> None:
         f'<line x1="0" y1="{TITLEBAR_H}" x2="{CANVAS_W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>',
     ]
     for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
-        p.append(f'<circle cx="{PAD + i*16}" cy="{TITLEBAR_H/2}" r="5" fill="{dot}"/>')
+        p.append(f'<circle cx="{PAD + i*20}" cy="{TITLEBAR_H/2}" r="8" fill="{dot}"/>')
     p.append(
-        f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + 4}" fill="{TITLE_TEXT}" '
-        f'font-size="12" text-anchor="middle">gildacio@github: ~$ ./portrait.sh</text>'
+        f'<text x="{CANVAS_W/2}" y="{TITLEBAR_H/2 + CHROME_FS*0.35:.1f}" fill="{TITLE_TEXT}" '
+        f'font-size="{CHROME_FS}" text-anchor="middle">Gildaciolopes@github: ~$ ./portrait.sh</text>'
     )
 
     font_size = CELL_H * 0.86
@@ -134,14 +137,17 @@ def main() -> None:
 
     # bottom status bar with a steady blinking cursor
     line_y = TITLEBAR_H + ART_H + PAD * 0.35
-    status_y = line_y + 19
+    status_y = line_y + STATUS_H * 0.62
+    prefix = "Gildaciolopes@github:~$ whoami Gildacio Lopes "  # up to the cursor
+    cursor_x = PAD + len(prefix) * CHROME_FS * 0.6
     p.append(f'<line x1="0" y1="{line_y:.1f}" x2="{CANVAS_W}" y2="{line_y:.1f}" stroke="{FRAME}"/>')
     p.append(
-        f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
-        f'gildacio@github:~$ whoami <tspan fill="{INK}">Gildacio Lopes</tspan></text>'
+        f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="{CHROME_FS}">'
+        f'Gildaciolopes@github:~$ whoami <tspan fill="{INK}">Gildacio Lopes</tspan></text>'
     )
     p.append(
-        f'<rect x="{PAD+322}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
+        f'<rect x="{cursor_x:.0f}" y="{status_y - CHROME_FS*0.8:.1f}" '
+        f'width="{CHROME_FS*0.55:.0f}" height="{CHROME_FS*1.05:.0f}" fill="{INK}">'
         f'<animate attributeName="opacity" values="1;1;0;0" '
         f'keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/></rect>'
     )

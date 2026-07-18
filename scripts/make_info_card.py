@@ -14,20 +14,27 @@ import os
 OUT = "info-card.svg"
 STATIC = os.environ.get("STATIC") == "1"
 
-# --- theme (GitHub dark terminal) ---
+# --- theme: same terminal chrome as avi-ascii.svg (gradient bg, rx=12 frame,
+# divider-line titlebar, bottom status bar) so both panels read as one set ---
 BG = "#0d1117"
-BORDER = "#30363d"
-HEADER = "#161b22"
+BG2 = "#111722"     # gradient top (matches ascii)
+FRAME = "#30363d"   # frame + divider lines
+TITLE_TEXT = "#7d8590"  # titlebar/status muted text
 KEY = "#39d353"     # green keys
 VAL = "#c9d1d9"     # light gray values
 ACCENT = "#58a6ff"  # blue section titles / links
 DIM = "#8b949e"     # dim / dots
 BULLET = "#39d353"
 
-W, H = 620, 470
+# H chosen so that, at the README widths (ascii 370 / card 490), both panels
+# render the SAME height: avi-ascii is 840x907 -> 399.5px@370; card 620x506 -> 399.5px@490.
+W, H = 620, 506
+PAD = 20            # matches ascii PAD (traffic-light origin)
 PAD_X = 26
 LINE_H = 21
-FONT = "'Fira Code','Cascadia Code',Consolas,monospace"
+TITLEBAR_H = 30
+STATUS_H = 30
+FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 # rows: ("kv", key, value) | ("sec", title, "") | ("bullet", text, "")
 ROWS = [
@@ -71,16 +78,19 @@ def main() -> None:
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}" font-family="{FONT}" font-size="13">',
-        f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="10" '
-        f'fill="{BG}" stroke="{BORDER}"/>',
-        # title bar with traffic lights
-        f'<rect x="0.5" y="0.5" width="{W-1}" height="30" rx="10" fill="{HEADER}"/>',
-        f'<rect x="0.5" y="16" width="{W-1}" height="15" fill="{HEADER}"/>',
-        f'<circle cx="18" cy="16" r="5" fill="#ff5f56"/>',
-        f'<circle cx="36" cy="16" r="5" fill="#ffbd2e"/>',
-        f'<circle cx="54" cy="16" r="5" fill="#27c93f"/>',
-        f'<text x="{W/2:.0f}" y="20" fill="{DIM}" text-anchor="middle" '
-        f'font-size="12">Gildaciolopes@github: ~$ fastfetch</text>',
+        '<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="{BG2}"/>'
+        f'<stop offset="1" stop-color="{BG}"/></linearGradient></defs>',
+        f'<rect width="{W}" height="{H}" rx="12" fill="url(#bg)"/>',
+        f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" '
+        f'fill="none" stroke="{FRAME}"/>',
+        # title bar: divider line + traffic lights + centered prompt (no fill)
+        f'<line x1="0" y1="{TITLEBAR_H}" x2="{W}" y2="{TITLEBAR_H}" stroke="{FRAME}"/>',
+        f'<circle cx="{PAD}" cy="{TITLEBAR_H/2}" r="5" fill="#ff5f56"/>',
+        f'<circle cx="{PAD+16}" cy="{TITLEBAR_H/2}" r="5" fill="#ffbd2e"/>',
+        f'<circle cx="{PAD+32}" cy="{TITLEBAR_H/2}" r="5" fill="#27c93f"/>',
+        f'<text x="{W/2:.0f}" y="{TITLEBAR_H/2 + 4:.0f}" fill="{TITLE_TEXT}" '
+        f'text-anchor="middle" font-size="12">Gildaciolopes@github: ~$ fastfetch</text>',
     ]
 
     y = 58
@@ -134,6 +144,26 @@ def main() -> None:
         )
         y += LINE_H
         i += 1
+
+    # bottom status bar (mirrors avi-ascii.svg): divider + prompt + blinking cursor
+    line_y = H - STATUS_H
+    status_y = line_y + 19
+    prefix = "Gildaciolopes@github:~$ fastfetch "  # up to the cursor
+    cursor_x = PAD + len(prefix) * 13 * 0.6
+    out.append(f'<line x1="0" y1="{line_y}" x2="{W}" y2="{line_y}" stroke="{FRAME}"/>')
+    out.append(
+        f'<text x="{PAD}" y="{status_y}" fill="{TITLE_TEXT}" font-size="13">'
+        f'Gildaciolopes@github:~$ <tspan fill="{VAL}">fastfetch</tspan></text>'
+    )
+    blink = (
+        '' if STATIC else
+        '<animate attributeName="opacity" values="1;1;0;0" '
+        'keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>'
+    )
+    out.append(
+        f'<rect x="{cursor_x:.0f}" y="{status_y-12}" width="8" height="14" '
+        f'fill="{VAL}">{blink}</rect>'
+    )
 
     out.append("</svg>")
     open(OUT, "w").write("\n".join(out))
